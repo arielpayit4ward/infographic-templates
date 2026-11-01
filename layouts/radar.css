@@ -4,8 +4,8 @@
   .rd-hub {
     position: absolute; left: 50%; top: 50%; transform: translate(-50%, -50%); width: 330px; height: 330px; border-radius: 50%; z-index: 2;
     display: flex; flex-direction: column; align-items: center; justify-content: center; text-align: center; color: #fff;
-    background: radial-gradient(90% 80% at 50% 10%, rgba(255,103,25,.30), transparent 60%), linear-gradient(180deg, var(--purple), var(--purple-deep));
-    box-shadow: var(--shadow-hub), 0 0 0 14px rgba(70,49,135,.07), 0 0 0 30px rgba(70,49,135,.04), inset 0 0 0 1.5px rgba(255,255,255,.14);
+    background: var(--purple-deep);
+    box-shadow: var(--shadow-hub), 0 0 0 14px rgba(61,102,97,.07), 0 0 0 30px rgba(61,102,97,.04), inset 0 0 0 1.5px rgba(255,255,255,.14);
   }
   .rd-hub img { width: 74px; height: 74px; }
   .rd-hub h2 { font-family: var(--font-display); font-weight: 400; font-size: 34px; margin-top: 4px; }

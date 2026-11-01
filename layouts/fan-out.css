@@ -2,7 +2,7 @@
   .board.is-fan-out { position: relative; flex: 1; margin: 40px 26px 30px; display: flex; flex-direction: column; gap: 0; }
   .fo-source {
     align-self: center; display: flex; align-items: center; gap: 22px; padding: 22px 36px 22px 24px; border-radius: 28px; color: #fff; z-index: 2;
-    background: radial-gradient(120% 90% at 50% 0%, rgba(255,103,25,.28), transparent 60%), linear-gradient(180deg, var(--purple), var(--purple-deep));
+    background: var(--purple-deep);
     box-shadow: var(--shadow-hub), inset 0 0 0 1.5px rgba(255,255,255,.12);
   }
   .fo-source h2 { font-family: var(--font-display); font-weight: 400; font-size: 34px; letter-spacing: -0.01em; }
@@ -17,7 +17,7 @@
   .is-fan-out .payoff { flex: none; }
   svg.links { position: absolute; inset: 0; width: 100%; height: 100%; pointer-events: none; overflow: visible; z-index: 1; }
   /* a mini draft: what this output looks like, drawn as a little document */
-  .is-fan-out .doc { width: 100%; margin-top: 18px; flex: 1; max-height: 240px; display: flex; flex-direction: column; gap: 9px; padding: 14px 12px; border-radius: 14px; background: #fff; box-shadow: inset 0 0 0 1.5px var(--line), 0 10px 20px -16px rgba(70,49,135,.5); text-align: left; }
+  .is-fan-out .doc { width: 100%; margin-top: 18px; flex: 1; max-height: 240px; display: flex; flex-direction: column; gap: 9px; padding: 14px 12px; border-radius: 14px; background: #fff; box-shadow: inset 0 0 0 1.5px var(--line), 0 10px 20px -16px rgba(61,102,97,.5); text-align: left; }
   .is-fan-out .doc i { display: block; height: 10px; border-radius: 6px; background: color-mix(in srgb, var(--h) 18%, #fff); }
   .is-fan-out .doc i:nth-child(1) { width: 62%; height: 12px; background: color-mix(in srgb, var(--h) 40%, #fff); }
   .is-fan-out .doc i:nth-child(3) { width: 84%; } .is-fan-out .doc i:nth-child(4) { width: 70%; } .is-fan-out .doc i:nth-child(6) { width: 52%; }

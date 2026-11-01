@@ -2,7 +2,7 @@
   .board.is-column-flow { position: relative; flex: 1; margin: 38px 26px 30px; display: flex; flex-direction: column; gap: 46px; }
   .cf-band {
     z-index: 2; padding: 20px 24px 22px; border-radius: 24px; color: #fff; text-align: center;
-    background: radial-gradient(120% 100% at 50% 0%, rgba(255,103,25,.26), transparent 60%), linear-gradient(180deg, var(--purple), var(--purple-deep));
+    background: var(--purple-deep);
     box-shadow: var(--shadow-hub), inset 0 0 0 1.5px rgba(255,255,255,.12);
   }
   .cf-band h2 { font-family: var(--font-display); font-weight: 400; font-size: 28px; letter-spacing: -0.005em; }
@@ -23,5 +23,5 @@
 
   /* dark theme: the purple panel would melt into the purple page, so it goes deeper with a light edge */
   @container style(--title-ink: #FFFFFF) {
-    .cf-band { background: radial-gradient(120% 100% at 50% 0%, rgba(255,103,25,.22), transparent 60%), linear-gradient(180deg, #2E2066, #21164D); box-shadow: 0 30px 60px -24px rgba(8,4,24,.7), inset 0 0 0 1.5px rgba(255,255,255,.2); }
+    .cf-band { background: var(--b-purple); box-shadow: 0 30px 60px -24px rgba(20,20,22,.7), inset 0 0 0 1.5px rgba(255,255,255,.2); }
   }

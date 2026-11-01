@@ -2,7 +2,7 @@
   .board.is-folder-tree { position: relative; flex: 1; margin: 30px 34px 30px 30px; display: flex; flex-direction: column; gap: 11px; }
   .is-folder-tree .root {
     align-self: flex-start; display: inline-flex; align-items: center; gap: 12px; padding: 12px 22px 12px 14px; border-radius: 16px;
-    background: linear-gradient(180deg, var(--purple), var(--purple-deep)); color: #fff; box-shadow: var(--shadow-hub);
+    background: var(--purple-deep); color: #fff; box-shadow: var(--shadow-hub);
     font-family: var(--font-mono); font-size: 22px; font-weight: 600; margin-bottom: 4px;
   }
   .is-folder-tree .root img { width: 40px; height: 40px; }

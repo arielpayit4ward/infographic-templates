@@ -33,7 +33,7 @@ Layouts['growth-curve'] = {
     const total = probe.getTotalLength();
     const yAtX = sx => { let lo = 0, hi = total; for (let k = 0; k < 40; k++) { const m = (lo + hi) / 2; probe.getPointAtLength(m).x < sx ? lo = m : hi = m; } return probe.getPointAtLength(lo).y; };
     let grid = '';
-    for (let k = 0; k <= 4; k++) { const v = yMax * k / 4, y = Y(v); grid += `<line x1="${L}" y1="${y}" x2="${W - Rr}" y2="${y}" stroke="rgba(70,49,135,.09)" stroke-width="1.5" ${k ? 'stroke-dasharray="4 6"' : ''}/><text x="${L - 14}" y="${y + 6}" text-anchor="end">${Math.round(v)}</text>`; }
+    for (let k = 0; k <= 4; k++) { const v = yMax * k / 4, y = Y(v); grid += `<line x1="${L}" y1="${y}" x2="${W - Rr}" y2="${y}" stroke="rgba(61,102,97,.09)" stroke-width="1.5" ${k ? 'stroke-dasharray="4 6"' : ''}/><text x="${L - 14}" y="${y + 6}" text-anchor="end">${Math.round(v)}</text>`; }
     const xt = D.chart.xTicks.map(([x, t]) => `<text x="${X(x)}" y="${H - 12}" text-anchor="middle">${t}</text>`).join('');
     let marks = '';
     D.cards.forEach((c, i) => {
@@ -42,12 +42,12 @@ Layouts['growth-curve'] = {
     });
     const end = pts[pts.length - 1];
     plot.innerHTML = `<svg width="${W}" height="${H}" viewBox="0 0 ${W} ${H}">
-      <defs><linearGradient id="gc-fill" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#CAF1CD" stop-opacity=".95"/><stop offset="1" stop-color="#CAF1CD" stop-opacity=".15"/></linearGradient></defs>
+      <defs><linearGradient id="gc-fill" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#ffb7c5" stop-opacity=".95"/><stop offset="1" stop-color="#ffb7c5" stop-opacity=".15"/></linearGradient></defs>
       ${grid}${xt}
       <path d="${d} L${X(end[0])},${Y(0)} L${X(pts[0][0])},${Y(0)} Z" fill="url(#gc-fill)"/>
-      <path d="${d}" fill="none" stroke="#2F8F57" stroke-width="5" stroke-linecap="round"/>
+      <path d="${d}" fill="none" stroke="#b04560" stroke-width="5" stroke-linecap="round"/>
       ${marks}
-      <circle cx="${X(end[0])}" cy="${Y(end[1])}" r="9" fill="#2F8F57"/>
+      <circle cx="${X(end[0])}" cy="${Y(end[1])}" r="9" fill="#b04560"/>
     </svg>`;
     tmp.remove();
   },
