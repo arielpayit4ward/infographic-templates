@@ -14,7 +14,7 @@
     position: absolute; transform: translate(-50%, -50%); display: flex; flex-direction: column; align-items: center; gap: 6px;
     padding: 16px 18px; border-radius: 20px; width: 168px; text-align: center; z-index: 2;
     background: var(--b-mint); color: var(--purple); font-weight: 800; font-size: 20px; line-height: 1.2;
-    box-shadow: inset 0 0 0 2px #fff, 0 18px 34px -16px rgba(47,143,87,.75);
+    box-shadow: inset 0 0 0 2px #fff, 0 18px 34px -16px rgba(196,87,111,.75);
   }
   .v2-core svg { color: var(--b-mint-text); }
   .v2-cards { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 18px; }

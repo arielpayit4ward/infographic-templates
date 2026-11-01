@@ -8,6 +8,6 @@
   .is-serpentine .card h3 { font-size: 27px; margin-bottom: 8px; }
   .is-serpentine .body { font-size: 21px; line-height: 1.38; }
   .is-serpentine .chip { margin: 10px 0 0; }
-  .is-serpentine .card.last { background: var(--b-mint); border-color: #AEE3B3; }
+  .is-serpentine .card.last { background: var(--b-mint); border-color: #f6c9d2; }
   .is-serpentine .card.last .node { background: var(--purple); color: #fff; }
   svg.links { position: absolute; inset: 0; width: 100%; height: 100%; pointer-events: none; overflow: visible; z-index: 0; }

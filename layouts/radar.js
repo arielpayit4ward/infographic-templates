@@ -25,7 +25,7 @@ Layouts['radar'] = {
     const ring = K.svgEl('rd-ring');
     const rx = B.width * 0.33, ry = B.height * 0.42;
     ring.innerHTML = `<defs><radialGradient id="sw" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(${cx} ${cy}) scale(${ry})">
-        <stop offset="0" stop-color="#FF6719" stop-opacity=".22"/><stop offset="1" stop-color="#FF6719" stop-opacity="0"/></radialGradient></defs>
+        <stop offset="0" stop-color="#77eedf" stop-opacity=".22"/><stop offset="1" stop-color="#77eedf" stop-opacity="0"/></radialGradient></defs>
       <ellipse cx="${cx}" cy="${cy}" rx="${rx}" ry="${ry}" fill="none" stroke="var(--purple)" stroke-opacity=".16" stroke-width="2" stroke-dasharray="2 9" stroke-linecap="round"/>
       <ellipse cx="${cx}" cy="${cy}" rx="${rx * .62}" ry="${ry * .62}" fill="none" stroke="var(--purple)" stroke-opacity=".10" stroke-width="2"/>
       <path d="M${cx},${cy} L${cx - ry * .42},${cy - ry * .9} A${ry} ${ry} 0 0 1 ${cx + ry * .12},${cy - ry * .99} Z" fill="url(#sw)"/>`;

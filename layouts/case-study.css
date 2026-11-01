@@ -1,7 +1,7 @@
 /* Layout: case study (static skill 05-case-study-stat). Hero result panel, story cards below. */
   .board.is-case-study { position: relative; flex: 1; margin: 40px 28px 28px; display: flex; flex-direction: column; gap: 26px; }
   .is-case-study .hero { position: relative; flex: 1.7; border-radius: 30px; padding: 32px 38px; display: grid; grid-template-columns: 1fr 1fr; grid-template-rows: auto 1fr auto; gap: 18px 34px;
-    background: linear-gradient(180deg, #fff, color-mix(in srgb, var(--b-peach) 55%, #fff)); box-shadow: var(--shadow-card), inset 0 0 0 1.5px var(--line); }
+    background: color-mix(in srgb, var(--b-peach) 55%, #fff); box-shadow: var(--shadow-card), inset 0 0 0 1.5px var(--line); }
   .is-case-study .who { grid-column: 1 / -1; }
   .is-case-study .eyebrow { font-family: var(--font-mono); font-size: 17px; font-weight: 600; letter-spacing: .16em; text-transform: uppercase; color: var(--b-orange-text); }
   .is-case-study .client { font-size: 24px; font-weight: 700; color: var(--ink); margin-top: 6px; letter-spacing: -0.02em; }
@@ -13,7 +13,7 @@
   .is-case-study .row .k, .is-case-study .tools .k { font-family: var(--font-mono); font-size: 15px; font-weight: 600; letter-spacing: .12em; text-transform: uppercase; color: var(--ink-soft); }
   .is-case-study .track { height: 34px; border-radius: 999px; background: color-mix(in srgb, var(--purple) 8%, #fff); overflow: hidden; }
   .is-case-study .fill { display: block; height: 100%; border-radius: 999px; }
-  .is-case-study .before .fill { background: #CFC6E6; }
+  .is-case-study .before .fill { background: #c9c6c0; }
   .is-case-study .after .fill { background: var(--b-orange); }
   .is-case-study .row b { grid-column: 2; font-size: 22px; color: var(--ink); }
   .is-case-study .tools { grid-column: 1 / -1; display: flex; align-items: center; gap: 14px; padding-top: 18px; border-top: 1.5px solid var(--line); }

@@ -1,26 +1,23 @@
 @import "b-warm.css";
-/* Dark: the brand purple is the page; cards stay light like lit screens; text on the page turns white.
+/* Dark: charcoal page (the brand's dark variant); cards stay light like paper; text on the page turns cream.
+   The file keeps its old name so existing data files ("theme": "purple-dark") still work. Alias: charcoal-dark.
    Layouts colour any text drawn straight on the page with var(--paper-ink) / var(--paper-ink-soft). */
 :root {
-  --paper: #463187;
-  --paper-ink: #FFFFFF;
-  --paper-ink-soft: rgba(224, 214, 255, 0.82);
-  --title-ink: #FFFFFF;
-  --pattern-opacity: 0.09;
-  --line: #E4DCFA;
-  /* connectors in purple items would vanish on purple, so lines use light lavender there */
-  --h-line-2: #C6B8FF; --h-line-5: #C6B8FF; --h-line-8: #C6B8FF; --h-line-11: #C6B8FF;
-  --h-line-3: #9BE3A3; --h-line-6: #9BE3A3; --h-line-9: #9BE3A3; --h-line-12: #9BE3A3;
-  --shadow-card: 0 1px 0 rgba(0,0,0,.05), 0 18px 36px -18px rgba(12, 6, 36, 0.65);
+  --paper: #28292b;
+  --paper-ink: #fbf8f3;
+  --paper-ink-soft: rgba(251, 248, 243, 0.78);
+  --title-ink: #fbf8f3;
+  --pattern-opacity: 0.5;
+  --line: #e6e1d8;
+  --h-line-1: #77eedf; --h-line-4: #77eedf; --h-line-7: #77eedf; --h-line-10: #77eedf;
+  --h-line-2: #9fb2e0; --h-line-5: #9fb2e0; --h-line-8: #9fb2e0; --h-line-11: #9fb2e0;
+  --h-line-3: #ffb7c5; --h-line-6: #ffb7c5; --h-line-9: #ffb7c5; --h-line-12: #ffb7c5;
+  --shadow-card: 0 1px 0 rgba(0,0,0,.05), 0 14px 32px -16px rgba(0, 0, 0, 0.6);
 }
-body {
-  background:
-    radial-gradient(90% 50% at 50% -10%, rgba(255, 103, 25, 0.22), transparent 60%),
-    radial-gradient(80% 60% at 50% 110%, rgba(122, 77, 255, 0.45), transparent 65%),
-    linear-gradient(180deg, #4B358F 0%, #3A2875 100%);
-}
-.pattern { filter: brightness(0) invert(1); }
+body { background: #28292b; }
+.pattern { filter: brightness(0) invert(1); opacity: .07; }
 .sub { color: var(--paper-ink-soft); }
 .sub b, .sub .name { color: var(--paper-ink); }
-footer.bar { background: #2A1D5A; box-shadow: inset 0 1px 0 rgba(255,255,255,.08); }
-.tag { box-shadow: 0 0 0 4px rgba(42, 29, 90, 0.35); }
+h1 .hl { color: var(--b-ink); }
+footer.bar { background: #1f2022; box-shadow: inset 0 1px 0 rgba(255,255,255,.08); }
+.tag { box-shadow: 0 0 0 4px #28292b; }

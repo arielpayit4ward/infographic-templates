@@ -7,7 +7,7 @@
   .is-growth-curve .plot svg { position: absolute; inset: 0; overflow: visible; }
   .is-growth-curve .plot text { font-family: var(--font-body); font-size: 17px; font-weight: 600; fill: var(--ink-soft); }
   .is-growth-curve .plot text.mk { font-family: var(--font-display); font-size: 20px; font-weight: 400; }
-  .is-growth-curve .endlab { font-family: var(--font-display); font-size: 30px; color: #2F8F57; margin-left: 12px; }
+  .is-growth-curve .endlab { font-family: var(--font-display); font-size: 30px; color: #b04560; margin-left: 12px; }
   .is-growth-curve .miles { flex: 1; display: grid; grid-template-columns: repeat(4, 1fr); gap: 16px; }
   .is-growth-curve .card { padding: 30px 18px 16px; }
   .is-growth-curve .card:has(> .ic) h3 { padding-right: 46px; }

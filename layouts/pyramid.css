@@ -3,7 +3,7 @@
   .py-stack { grid-column: 1; }
   .py-tier {
     grid-column: 1; position: relative; display: grid; place-items: center; padding-top: 6px;
-    background: linear-gradient(180deg, color-mix(in srgb, var(--h) 34%, #fff), color-mix(in srgb, var(--h) 20%, #fff));
+    background: color-mix(in srgb, var(--h) 34%, #fff);
   }
   .py-tier span { font-family: var(--font-display); font-size: 29px; color: var(--h-text, var(--h)); text-align: center; line-height: 1.05; max-width: 70%; }
   .is-pyramid .card { grid-column: 2; justify-content: center; padding: 28px 70px 14px 22px; }

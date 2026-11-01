@@ -8,9 +8,7 @@
   .hub {
     position: relative; border-radius: 26px; overflow: hidden;
     background:
-      radial-gradient(120% 80% at 50% 0%, rgba(255,103,25,.28) 0%, transparent 55%),
-      radial-gradient(90% 70% at 50% 110%, rgba(122,77,255,.45) 0%, transparent 60%),
-      linear-gradient(180deg, var(--purple) 0%, var(--purple-deep) 100%);
+      var(--purple-deep);
     box-shadow: var(--shadow-hub), inset 0 0 0 1.5px rgba(255,255,255,.12);
     display: flex; flex-direction: column; align-items: center; justify-content: center; text-align: center;
     color: #fff; margin: 18px 26px;

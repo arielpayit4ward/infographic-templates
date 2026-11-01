@@ -2,7 +2,7 @@
   .board.is-tree { position: relative; flex: 1; margin: 40px 26px 30px; display: flex; flex-direction: column; gap: 90px; }
   .root {
     align-self: center; display: flex; align-items: center; gap: 18px; padding: 26px 44px 26px 28px; border-radius: 28px; color: #fff;
-    background: radial-gradient(120% 90% at 50% 0%, rgba(255,103,25,.28), transparent 60%), linear-gradient(180deg, var(--purple), var(--purple-deep));
+    background: var(--purple-deep);
     box-shadow: var(--shadow-hub), inset 0 0 0 1.5px rgba(255,255,255,.12);
   }
   .root img { width: 92px; height: 92px; }

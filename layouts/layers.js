@@ -2,7 +2,7 @@
 Layouts['layers'] = {
   build(K) {
     const { D, board } = K;
-    const fills = D.fills || ['#FFE8DC', '#EEE8FF', '#DCD1FA', '#CAF1CD'];
+    const fills = D.fills || ['#e3faf6', '#eef1fa', '#d3dcf2', '#ffb7c5'];
     const n = D.cards.length;
     D.cards.forEach((c, i) => {
       const a = document.createElement('div'); a.className = 'ly-arch'; a.dataset.i = i;

@@ -5,7 +5,7 @@
   .is-loop .body { font-size: 21px; line-height: 1.36; }
   .lp-centre {
     position: absolute; transform: translate(-50%, -50%); width: 300px; height: 300px; border-radius: 50%; display: flex; flex-direction: column; align-items: center; justify-content: center; text-align: center; color: #fff;
-    background: radial-gradient(120% 90% at 50% 0%, rgba(255,103,25,.3), transparent 60%), linear-gradient(180deg, var(--purple), var(--purple-deep));
+    background: var(--purple-deep);
     box-shadow: var(--shadow-hub), inset 0 0 0 1.5px rgba(255,255,255,.12);
   }
   .lp-centre img { width: 84px; height: 84px; margin-bottom: 4px; }
