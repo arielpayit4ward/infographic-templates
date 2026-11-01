@@ -6,7 +6,7 @@
   --paper: #28292b;
   --paper-ink: #fbf8f3;
   --paper-ink-soft: rgba(251, 248, 243, 0.78);
-  --title-ink: #fbf8f3;
+  --title-ink: #FFFFFF;  /* layouts detect the dark theme by this exact value */
   --pattern-opacity: 0.5;
   --line: #e6e1d8;
   --h-line-1: #77eedf; --h-line-4: #77eedf; --h-line-7: #77eedf; --h-line-10: #77eedf;

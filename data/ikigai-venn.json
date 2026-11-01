@@ -1,0 +1,30 @@
+{
+  "layout": "venn",
+  "title": [
+    "Ikigai Isn't",
+    "<g>Four Circles</g>"
+  ],
+  "subtitle": "<b>That famous Venn maps hatarakigai,</b> a reason for working.",
+  "core": "A life<br>worth living",
+  "cards": [
+    {
+      "tag": "Felt",
+      "icon": "heart",
+      "title": "A felt sense",
+      "body": "Mieko Kamiya called it <b style=\"white-space:nowrap\">ikigai-kan</b>, the lived sense that life is worth living."
+    },
+    {
+      "tag": "Plural",
+      "icon": "layers",
+      "title": "Many small reasons",
+      "body": "Not one grand purpose. <b>A tapestry, not a thread.</b>"
+    },
+    {
+      "tag": "Everyday",
+      "icon": "house",
+      "title": "Found in ordinary moments",
+      "body": "The morning tea. <b>The cat in the warmest chair.</b>"
+    }
+  ],
+  "highlight": "sticker"
+}
