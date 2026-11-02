@@ -1,0 +1,39 @@
+{
+  "layout": "billboard",
+  "highlight": "sticker",
+  "title": [
+    "Time Is the",
+    "<g>Wrong Question</g>"
+  ],
+  "subtitle": "<b>The clock counts every hour the same.</b> We don't have to.",
+  "claim": {
+    "kicker": "My screen time this week",
+    "lines": [
+      "Four hours, 37 minutes a day.",
+      "My first feeling was <g>shame</g>",
+      "before I'd asked a single question."
+    ],
+    "icon": "clock",
+    "foot": "<b>Connection, communication, information, rest</b> and drift."
+  },
+  "cards": [
+    {
+      "tag": "What for",
+      "icon": "target",
+      "title": "What was it for?",
+      "body": "Friends, news, rest... <b>“for nothing” counts too.</b>"
+    },
+    {
+      "tag": "Choice",
+      "icon": "hand",
+      "title": "Did I choose it?",
+      "body": "A choice turns an hour into <b>time I spent,</b> not time I gave."
+    },
+    {
+      "tag": "Cost",
+      "icon": "eye",
+      "title": "What did it crowd out?",
+      "body": "The walk where I saw <b>more screen than sea.</b>"
+    }
+  ]
+}

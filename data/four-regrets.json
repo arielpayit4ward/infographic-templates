@@ -1,0 +1,37 @@
+{
+  "layout": "compare",
+  "highlight": "sticker",
+  "title": [
+    "Every Regret Shows",
+    "<g>What You Value</g>"
+  ],
+  "subtitle": "<b>Daniel Pink's four kinds of regret,</b> held up to the light.",
+  "left": "The if only...",
+  "right": "What it shows you value",
+  "cards": [
+    {
+      "tag": "Foundation",
+      "icon": "house",
+      "left": "If only I'd done the work",
+      "right": "Stability, a life built to last"
+    },
+    {
+      "tag": "Boldness",
+      "icon": "rocket",
+      "left": "If only I'd taken the chance",
+      "right": "Growth, the cave you didn't enter"
+    },
+    {
+      "tag": "Moral",
+      "icon": "shield",
+      "left": "If only I'd done the right thing",
+      "right": "Goodness, being someone you respect"
+    },
+    {
+      "tag": "Connection",
+      "icon": "users",
+      "left": "If only I'd reached out",
+      "right": "Love, the people who matter most"
+    }
+  ]
+}
