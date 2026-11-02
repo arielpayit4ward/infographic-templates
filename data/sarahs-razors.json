@@ -1,0 +1,39 @@
+{
+  "layout": "loop",
+  "highlight": "sticker",
+  "title": [
+    "Sarah's <g>Razors</g> for",
+    "Difficult Days"
+  ],
+  "subtitle": "<b>Custom instructions for this human.</b> Four compass points, one legend.",
+  "centre": {
+    "title": "What would Anna say?",
+    "sub": "every map has a legend"
+  },
+  "cards": [
+    {
+      "tag": "North",
+      "icon": "message-circle",
+      "title": "Try muddle before malice",
+      "body": "Perhaps they're just overwhelmed. <b>Start generously.</b>"
+    },
+    {
+      "tag": "East",
+      "icon": "layers",
+      "title": "Let more than one thing be true",
+      "body": "I can love my life <b>and</b> find today difficult."
+    },
+    {
+      "tag": "South",
+      "icon": "clock",
+      "title": "If it can wait, let kindness catch up",
+      "body": "Plenty survives <b>a cup of coffee.</b>"
+    },
+    {
+      "tag": "West",
+      "icon": "heart",
+      "title": "Keep a hand in what makes you feel alive",
+      "body": "Before handing it to AI, ask <b>what would I miss?</b>"
+    }
+  ]
+}
